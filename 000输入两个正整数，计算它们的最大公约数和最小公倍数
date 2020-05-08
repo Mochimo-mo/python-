@@ -1,1 +1,17 @@
+a=int(input())
+b=int(input())
 
+if a>b: 
+     t=a 
+     a=b 
+     b=t 
+
+In [58]: for i in range(b,0,-1): 
+    ...:     if a%i==0 and b%i==0: 
+    ...:         print(i)
+                 break
+
+print(a*b//5)
+
+    
+    
